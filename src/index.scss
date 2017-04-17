@@ -1,0 +1,295 @@
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+body, h1, h2, h3 {
+  font-weight: 300;
+  color: #4c4c4c;
+}
+
+h1, h2 , h3 {
+  color: #a8395c;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: #5aadbb;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  background-color: #a8395c;
+  margin-bottom:50px;
+    .menu {
+      color: #fff;
+      font-size:16px;
+      margin-left: 15px;
+    }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #cf4646;
+  color: white;
+}
+.title-h1 {
+  font-weight: 300;
+  font-size: 4rem;
+  margin: 1rem;
+}
+.title-logo {
+  height: 12rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.title-h2 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+.footer {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #1f1f1f;
+  text-align: center;
+  color: white;
+}
+
+.techs-container {
+  margin: 1rem;
+}
+.techs-h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.techs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tech {
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.tech-logo {
+  width: 5rem;
+  height: 5rem;
+  float: right;
+  margin: 0 0 .5rem .5rem;
+}
+.tech-h3 {
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+}
+
+a {
+  color: #000;
+}
+.logo{
+  width: 170px;
+  height: auto;
+}
+.testinglinks {
+  width: 600px;
+  text-decoration: none;
+  font-size:16px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #797979;
+  img {
+    padding-right:10px;
+  }
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    color: #797979;
+  }
+}
+
+.lastchild {
+  padding-bottom:10px;
+}
+
+.gotcha {
+ height: 65.5vh;
+ overflow:scroll;
+   overflow-x: hidden;
+ border: 1px solid #c8c8c8;
+ padding-top:20px;
+}
+.video-news-item {
+  width: 100%;
+  height: 120px;
+  .titleview {
+    width: 50%;
+    float:right;
+  }
+
+  img {
+    width: 45%;
+    margin-right: 5%;
+  }
+  p {
+  }
+  a {
+
+    font-weight: 400;
+    color: #a8395c;
+    line-height: 18px;
+  }
+}
+.bigtitle {
+  font-size: 18px;
+  color: #a8395c;
+  font-weight: 400;
+}
+.biggah {
+  width: 100%;
+}
+.fitcontent {
+  // padding-left: 5px;
+  // padding-right: 5px;
+      width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #c8c8c8;
+  .topfit {
+    width: 100%;
+    height: 75px;
+    .bigtitle {
+      width: 85%;
+    }
+    .icons {
+      width: 10%;
+      .icon {
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.wegot { 
+  h1{
+  padding-bottom:35px;
+  }
+  h2 {
+    padding-bottom:42px;
+  }
+}
+
+.testing {
+  cursor: pointer;
+transition: all 0.5s ease;
+}
+
+.wegot {
+  .is-collapsed {
+  opacity: 0.5;
+  height: 200px;
+  overflow: hidden;
+  }
+}
+
+.tester {
+width: 400px;
+float:right;
+  input {
+    border: 1px solid #fff;
+    background-color: #932d4d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   color: #fff;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+   color: #fff;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+   color: #fff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+  }
+}
+
+.tester.is-collapsedham {
+
+
+
+input {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+ img.is-collapsedham {
+  opacity: 0.5;
+  transition: all 1s ease;
+ }
+
+}
+
+.allvideos-item {
+  .holder {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .titleview {
+    width: 45%;
+    padding-left: 4%;
+    line-height: 20px;
+  }
+  img {
+    width: 51%;
+  }
+}
+.modal-dialog {
+
+}
+
+.right-inner-addon {
+  position: relative;
+}
+
+.right-inner-addon { 
+  .gottageticon{
+  position: absolute;
+  right: 10px;
+
+  pointer-events: none;
+  top:5px;
+  }
+}
