@@ -5,6 +5,7 @@
     "firebase": "^3.7.6",
     "moment": "^2.18.1",
     "vue": "^2.1.10",
+    "vue-awesome": "^2.2.4",
     "vue-axios": "^2.0.1",
     "vue-infinite-loading": "^2.0.4",
     "vue-infinite-scroll": "^2.0.1",
